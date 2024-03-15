@@ -40,7 +40,7 @@ public class Sequencer extends UnicastRemoteObject implements ProcessInterface {
 	
 	// TODO: all processes will make request to the sequencer - so synchronize
 	@Override
-	public void onMessageReceived(Message message) throws RemoteException {
+	public  void  onMessageReceived(Message message) throws RemoteException {
 		// TODO
 		// increment nextid (time stamp)
 		nextid++;
@@ -52,17 +52,35 @@ public class Sequencer extends UnicastRemoteObject implements ProcessInterface {
 		// check if the ordering limit has been reached. If yes, multicast queue messages to all the replicas by calling the sendQueueMessagesToReplicas 
 		if(queue.size() >= ORDERINGLIMIT) {
 			
-			// sendQueueMessagesToReplicas()
-			
-			// reset the queue
+			sendQueueMessagesToReplicas();
+			queue.clear();
+
 		}
 		// and reset nextid
 		nextid = 0;
 
 	}
 	
-	private void sendQueueMessagesToReplicas() throws RemoteException {
+	private synchronized void sendQueueMessagesToReplicas() throws RemoteException {
 		// TODO
+
+
+		//replicas.forEach((k,v) -> Util.getProcessStub(k,v).onMessageReceived())
+
+		//public void iterateUsingEntrySet(Map<String, Integer> map) {
+		//	for (Map.Entry<String, Integer> entry : map.entrySet()) {
+		//		System.out.println(entry.getKey() + ":" + entry.getValue());
+		//	}
+
+		for(Map.Entry<String, Integer> entry : replicas.entrySet()){
+			ProcessInterface process = Util.getProcessStub(entry.getKey(), entry.getValue());
+			for(int i = 0; i > queue.size(); i++){
+				process.onMessageReceived(queue.get(i));
+			}
+
+
+		}
+		queue.clear();
 		// iterate over each replica, 
 			// get the port for each process
 			// get the process stub: use Util
@@ -72,16 +90,16 @@ public class Sequencer extends UnicastRemoteObject implements ProcessInterface {
 		
 	}
 
+
 	@Override
 	public void requestInterest(double interest) throws RemoteException {
-		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void requestDeposit(double amount) throws RemoteException {
-		// TODO Auto-generated method stub
-		
+
+
 	}
 
 	@Override

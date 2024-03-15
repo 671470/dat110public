@@ -3,9 +3,7 @@ package no.hvl.dat110.ds.test;
 
 import java.rmi.RemoteException;
 
-import org.junit.Assert;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+
 
 import no.hvl.dat110.ds.clients.Client1;
 import no.hvl.dat110.ds.clients.Client2;
@@ -15,6 +13,11 @@ import no.hvl.dat110.ds.middleware.ProcessContainer;
 import no.hvl.dat110.ds.middleware.SequencerContainer;
 import no.hvl.dat110.ds.middleware.iface.ProcessInterface;
 import no.hvl.dat110.ds.util.Util;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 class ActiveReplicationTest {
 	
@@ -45,7 +48,7 @@ class ActiveReplicationTest {
 		ProcessInterface p1 = Util.getProcessStub("process1", Config.PORT1);
 		ProcessInterface p2 = Util.getProcessStub("process2", Config.PORT2);
 		ProcessInterface p3 = Util.getProcessStub("process3", Config.PORT3);
-		
+
 		double p1finalbal = 0;
 		double p2finalbal = 1;
 		double p3finalbal = 2;
@@ -56,12 +59,12 @@ class ActiveReplicationTest {
 		} catch (RemoteException e) {
 			e.printStackTrace();
 		}
-		
-		Assert.assertNotEquals(1000, p1finalbal, 0);
-		Assert.assertNotEquals(1000, p2finalbal, 0);
-		Assert.assertNotEquals(1000, p3finalbal, 0);
-		Assert.assertEquals(p1finalbal, p2finalbal, 0);
-		Assert.assertEquals(p1finalbal, p3finalbal, 0);
+
+		assertNotEquals(1000, p1finalbal, 0);
+		assertNotEquals(1000, p2finalbal, 0);
+		assertNotEquals(1000, p3finalbal, 0);
+		assertEquals(p1finalbal, p2finalbal, 0);
+		assertEquals(p1finalbal, p3finalbal, 0);
 		
 	}
 

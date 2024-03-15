@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="35500bf3-6896-45e2-a421-c76559b7df64" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/untitled/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Consistency-Sequencer-Exercise/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week11/Consistency-Sequencer-Exercise/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Consistency-Sequencer-Exercise/src/no/hvl/dat110/ds/middleware/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/week11/Consistency-Sequencer-Exercise/src/no/hvl/dat110/ds/middleware/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Consistency-Sequencer-Exercise/src/no/hvl/dat110/ds/middleware/Process.java" beforeDir="false" afterPath="$PROJECT_DIR$/week11/Consistency-Sequencer-Exercise/src/no/hvl/dat110/ds/middleware/Process.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Consistency-Sequencer-Exercise/src/no/hvl/dat110/ds/middleware/Sequencer.java" beforeDir="false" afterPath="$PROJECT_DIR$/week11/Consistency-Sequencer-Exercise/src/no/hvl/dat110/ds/middleware/Sequencer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Consistency-Sequencer-Exercise/src/no/hvl/dat110/ds/test/ActiveReplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/week11/Consistency-Sequencer-Exercise/src/no/hvl/dat110/ds/test/ActiveReplicationTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2cg95FsfTtlYP1wbDljW9oKJKPN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.ActiveReplicationTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.CheckIntervalTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.no.hvl.dat110.ds.clients in Consistency-Sequencer-Exercise.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Sindri&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alpha/Desktop/DAT110/dat110public-master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.42881796&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.ActiveReplicationTest">
+    <configuration name="ActiveReplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Consistency-Sequencer-Exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.hvl.dat110.ds.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.hvl.dat110.ds.test" />
+      <option name="MAIN_CLASS_NAME" value="no.hvl.dat110.ds.test.ActiveReplicationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckIntervalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dat110public" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.hvl.dat110.node.client.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.hvl.dat110.node.client.test" />
+      <option name="MAIN_CLASS_NAME" value="no.hvl.dat110.node.client.test.CheckIntervalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="no.hvl.dat110.ds.clients in Consistency-Sequencer-Exercise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Consistency-Sequencer-Exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.hvl.dat110.ds.clients.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.hvl.dat110.ds.clients" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ActiveReplicationTest" />
+        <item itemvalue="JUnit.no.hvl.dat110.ds.clients in Consistency-Sequencer-Exercise" />
+        <item itemvalue="JUnit.CheckIntervalTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35500bf3-6896-45e2-a421-c76559b7df64" name="Changes" comment="" />
+      <created>1708522170883</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708522170883</updated>
+      <workItem from="1708522173840" duration="608000" />
+      <workItem from="1709117596877" duration="37000" />
+      <workItem from="1709204545299" duration="19000" />
+      <workItem from="1710407937571" duration="22000" />
+      <workItem from="1710407971466" duration="146000" />
+      <workItem from="1710408119368" duration="31000" />
+      <workItem from="1710408161565" duration="205000" />
+      <workItem from="1710408594136" duration="60000" />
+      <workItem from="1710410545039" duration="10150000" />
+      <workItem from="1710421985911" duration="39000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/week11/Consistency-Sequencer-Exercise/src/no/hvl/dat110/ds/test/ActiveReplicationTest.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/week11/Consistency-Sequencer-Exercise/src/no/hvl/dat110/ds/test/ActiveReplicationTest.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="c1" />
+        <watch expression="p2" />
+        <watch expression="((ObjID)((LiveRef)((UnicastRef)((RemoteObjectInvocationHandler)this.h).ref).ref).id).space" custom="java.rmi.server.RemoteObjectInvocationHandler,java.lang.reflect.Proxy,sun.rmi.server.UnicastRef,sun.rmi.transport.LiveRef,java.rmi.server.ObjID" />
+        <watch expression="((ObjID)((LiveRef)((UnicastRef)((RemoteObjectInvocationHandler)this.h).ref).ref).id).space" custom="java.rmi.server.RemoteObjectInvocationHandler,java.lang.reflect.Proxy,sun.rmi.server.UnicastRef,sun.rmi.transport.LiveRef,java.rmi.server.ObjID" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

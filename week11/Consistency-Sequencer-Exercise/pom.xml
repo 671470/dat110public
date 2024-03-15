@@ -3,8 +3,17 @@
   <groupId>Consistency-Sequencer-Exercise</groupId>
   <artifactId>Consistency-Sequencer-Exercise</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>5.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
+
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -12,7 +21,14 @@
         <configuration>
           <source>1.8</source>
           <target>1.8</target>
-        </configuration>
+        </configuration><dependencies>
+
+        <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>4.13.2</version>
+        </dependency>
+      </dependencies>
       </plugin>
     </plugins>
   </build>
